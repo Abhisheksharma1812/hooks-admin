@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Hooks-app-admin
 =======
 # Getting Started with Create React App
