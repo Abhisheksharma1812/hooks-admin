@@ -36,6 +36,9 @@ function Datings() {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("Auth-Token")}`,
         },
+        params: {
+          platform: "web",
+        },
       });
       setDatings(response.data.datings || []);
       setFilteredDatings(response.data.datings || []); // Set filtered data initially
